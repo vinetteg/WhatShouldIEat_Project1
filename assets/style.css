@@ -1,0 +1,50 @@
+:root {
+
+}
+
+#recipeHeader{
+    padding-bottom: 8%;
+}
+
+#recipeContainer {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#ingredientsContainer {
+    padding: 10px;
+    height: 100vh;
+}
+
+#ingredients {
+    height: 100%;
+}
+
+#recipePicContainer {
+    padding: 10px;
+    height: 100vh;
+}
+
+#recipePic {
+    width: 100vw;
+}
+
+#recipeBtnDiv button {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    #recipeContainer {
+        flex-direction: column;
+    }
+
+    #recipePicContainer {
+        order: 1;
+        width: 100vw;
+    }
+
+    #ingredientsContainer {
+        order: 2;
+        width: 100vw;
+    }
+}
