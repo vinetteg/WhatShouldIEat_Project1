@@ -1,0 +1,36 @@
+.ingredient{
+    font-family: 'Montserrat', sans-serif;
+   color: black;
+   background-color: rgba(255,255,255,0);
+   border: 2px solid black;
+   width: 130px;
+   text-decoration: none;
+   padding: 10px;
+   margin: 15px; 
+   cursor: pointer;
+}
+
+.ingredientList{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.mainIngredient{
+    margin: 100px;
+    padding: 25px;
+}
+
+.landingContainer{
+   background-image: url(./Images/background-img.jpg); 
+   background-size:cover;
+   position: relative;
+   min-height: 100vh;
+   background-repeat: no-repeat;
+   background-position: center center;
+   overflow: hidden;
+}
