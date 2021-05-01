@@ -1,7 +1,15 @@
-
 :root {
 
 }
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+
+
 
 #recipeHeader{
     padding-bottom: 8%;
@@ -84,5 +92,6 @@
    background-repeat: no-repeat;
    background-position: center center;
    overflow: hidden;
+
 
 }
