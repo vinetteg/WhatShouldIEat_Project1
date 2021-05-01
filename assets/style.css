@@ -8,6 +8,7 @@
 
 .show {
     display: block;
+}
 
 
 
@@ -56,6 +57,7 @@
         order: 2;
         width: 100vw;
     }
+}
 
 .ingredient{
     font-family: 'Montserrat', sans-serif;
@@ -93,5 +95,8 @@
    background-position: center center;
    overflow: hidden;
 
+}
 
+.callout{
+    margin: 0;
 }
