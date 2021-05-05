@@ -1,4 +1,4 @@
-:root {
+:root{
 
 }
 
@@ -79,18 +79,21 @@
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px;
+    padding-left: 0px;
 }
 
 .mainIngredient{
     margin: 100px;
-    padding: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 75px;
 }
 
 .landingContainer{
    background-image: url(./Images/background-img.jpg); 
    background-size:cover;
    position: relative;
-   min-height: 100vh;
+   min-height: 75vh;
    background-repeat: no-repeat;
    background-position: center center;
    overflow: hidden;
@@ -99,4 +102,22 @@
 
 .callout{
     margin: 0;
+}
+
+.foodHistory{
+    display: none;
+}
+
+.recipeArea{
+    display:none;
+}
+
+#recentHeader{
+    background-color: #E0E2DB;
+    color:black;
+}
+
+#returnBtn{
+    background-color: #466431;
+    color: white;
 }
