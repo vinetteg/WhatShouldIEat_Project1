@@ -19,7 +19,7 @@
   </head>
 
   <body>
-      <header>
+    <header class="header">
       <div class="callout large">
         <div class="row column text-center">
           <h1>What Should I Eat?</h1>
@@ -33,15 +33,13 @@
       <ul class="ingredientList">
       <li><button id="beef" type="button" class="ingredient" >Beef</button></li>
       <li><button id="chicken" type="button" class="ingredient">Chicken</button></li>
-      <li><button id="pork" type="button" class="ingredient">Pork</button></li>
       <li><button id="fish" type="button" class="ingredient">Fish</button></li>
       <li><button id="veggies" type="button" class="ingredient">Vegetables</button></li>
-      <li><button id="tofu" type="button" class="ingredient">Tofu</button></li>
     </ul> 
     </div>
     </section>
 
-    <section class="recipeArea hide">
+    <section class="recipeArea">
      <header></header>
       <h2 id="recipeHeader" class="text-center">Recipe Name</h2>
     <main id="recipeContainer" class="grid-x">
@@ -61,12 +59,12 @@
     </main>
   </section>
   
-  <section class="foodHistory hide">
-   <div class="callout primary">
+  <section class="foodHistory">
+   <div id="recentHeader" class="callout primary">
     <div class="row column text-center">
       <h2>Recent </h2>
       <div id="historyBtnDiv" class="cell small-2 text-center">
-        <button type="button" class="success button ">Return To Menu</button>
+        <button type="button" class="success button" id="returnBtn">Return To Menu</button>
       </div>
     </div>
     </div>
@@ -136,7 +134,11 @@
       integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
       crossorigin="anonymous"
     ></script>
+
     <script src="assets/script.js"></script>
     <script src="assets/math.js"></script>
+
+    <script src="./assets/script.js"></script>
+
   </body>
 </html>
