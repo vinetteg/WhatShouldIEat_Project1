@@ -14,14 +14,14 @@ function beefRecipes(){
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
-fishBtn.addEventListener("click", randomBeefOption);
+beefBtn.addEventListener("click", randomBeefOption);
 beefBtn.addEventListener("click", beefRecipes);
 function chickenRecipes(){
     headerEl.style.display="none";
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
-fishBtn.addEventListener("click", randomChickenOption);
+chickenBtn.addEventListener("click", randomChickenOption);
 chickenBtn.addEventListener("click", chickenRecipes);
 function fishRecipes(){
     headerEl.style.display="none";
@@ -36,7 +36,7 @@ function veggieRecipes(){
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
-fishBtn.addEventListener("click", randomVeggieOption);
+veggieBtn.addEventListener("click", randomVeggieOption);
 veggiesBtn.addEventListener("click", veggieRecipes);
 function showHistory(){
     recipeArea.style.display="none";
