@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>What Should I Eat?</title>
-
+    <title>What Should I Eat?</title>
 
     <link
       rel="stylesheet"
@@ -19,123 +18,158 @@
   </head>
 
   <body>
-      <header>
+    <header>
       <div class="callout large">
         <div class="row column text-center">
           <h1>What Should I Eat?</h1>
         </div>
       </div>
     </header>
-    
 
     <section class="landingContainer">
-    <div class="mainIngredient">
-      <ul class="ingredientList">
-      <li><button id="beef" type="button" class="ingredient" >Beef</button></li>
-      <li><button id="chicken" type="button" class="ingredient">Chicken</button></li>
-      <li><button id="pork" type="button" class="ingredient">Pork</button></li>
-      <li><button id="fish" type="button" class="ingredient">Fish</button></li>
-      <li><button id="veggies" type="button" class="ingredient">Vegetables</button></li>
-      <li><button id="tofu" type="button" class="ingredient">Tofu</button></li>
-    </ul> 
-    </div>
+      <div class="mainIngredient">
+        <ul class="ingredientList">
+          <li>
+            <button id="beef" type="button" class="ingredient">Beef</button>
+          </li>
+          <li>
+            <button id="chicken" type="button" class="ingredient">
+              Chicken
+            </button>
+          </li>
+          <li>
+            <button id="pork" type="button" class="ingredient">Pork</button>
+          </li>
+          <li>
+            <button id="fish" type="button" class="ingredient">Fish</button>
+          </li>
+          <li>
+            <button id="veggies" type="button" class="ingredient">
+              Vegetables
+            </button>
+          </li>
+          <li>
+            <button id="tofu" type="button" class="ingredient">Tofu</button>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="recipeArea hide">
-     <header></header>
+    <section class="recipeArea">
+      <header></header>
       <h2 id="recipeHeader" class="text-center">Recipe Name</h2>
-    <main id="recipeContainer" class="grid-x">
-      <div id="ingredientsContainer" class="cell small-12 medium-6 large-8">
-        <div id="ingredients">urna in venenatis gravida quam suscipit primis neque, proin parturient pulvinar lectus metus eros dignissim. Interdum ante varius dapibus blandit dui inceptos facilisis faucibus litora potenti sociosqu, dignissim vehicula libero neque nulla penatibus urna risus tristique. Per torquent vitae feugiat quis habitasse nibh magna justo, lacus dictumst iaculis scelerisque felis auctor dapibus montes, mus penatibus mollis nam fringilla sem maecenas. Ut proin posuere fusce odio sagittis habitasse montes volutpat, lacus velit tincidunt fringilla aenean ante. Phasellus nam duis curabitur iaculis faucibus class nostra semper, vel litora egestas facilisi erat magnis non, ultrices tincidunt eros consequat porttitor auctor aptent. Cubilia vehicula nunc mi quis parturient libero tincidunt, ad metus porta ante est integer dictumst etiam, congue litora pellentesque natoque senectus et. Quam gravida egestas pharetra nostra pulvinar auctor sapien varius at ornare, himenaeos magnis cras litora mollis montes dignissim parturient. Magna sem scelerisque ornare luctus aliquam a rutrum nisl ut purus, lacus eleifend imperdiet praesent quisque integer fermentum torquent.
-        </div>
-      </div>
-      <div id="recipePicContainer" class="small-6 medium-6 large-4">
-        <div>
-          <img id="recipePic" src="./assets/placeholder.png">
-          <div id="recipeBtnDiv" class="grid-x">
-            <button type="button" id="reRollBtn" class="success button">Reroll</button>
-            <button type="button" id="historyBtn" class="alert button">History</button>
+      <main id="recipeContainer" class="grid-x">
+        <div id="ingredientsContainer" class="cell small-12 medium-6 large-8">
+          <div id="ingredients">
+            urna in venenatis gravida quam suscipit primis neque, proin
+            parturient pulvinar lectus metus eros dignissim. Interdum ante
+            varius dapibus blandit dui inceptos facilisis faucibus litora
+            potenti sociosqu, dignissim vehicula libero neque nulla penatibus
+            urna risus tristique. Per torquent vitae feugiat quis habitasse nibh
+            magna justo, lacus dictumst iaculis scelerisque felis auctor dapibus
+            montes, mus penatibus mollis nam fringilla sem maecenas. Ut proin
+            posuere fusce odio sagittis habitasse montes volutpat, lacus velit
+            tincidunt fringilla aenean ante. Phasellus nam duis curabitur
+            iaculis faucibus class nostra semper, vel litora egestas facilisi
+            erat magnis non, ultrices tincidunt eros consequat porttitor auctor
+            aptent. Cubilia vehicula nunc mi quis parturient libero tincidunt,
+            ad metus porta ante est integer dictumst etiam, congue litora
+            pellentesque natoque senectus et. Quam gravida egestas pharetra
+            nostra pulvinar auctor sapien varius at ornare, himenaeos magnis
+            cras litora mollis montes dignissim parturient. Magna sem
+            scelerisque ornare luctus aliquam a rutrum nisl ut purus, lacus
+            eleifend imperdiet praesent quisque integer fermentum torquent.
           </div>
         </div>
-      </div>
-    </main>
-  </section>
-  
-  <section class="foodHistory hide">
-   <div class="callout primary">
-    <div class="row column text-center">
-      <h2>Recent </h2>
-      <div id="historyBtnDiv" class="cell small-2 text-center">
-        <button type="button" class="success button ">Return To Menu</button>
-      </div>
-    </div>
-    </div>
-    <div class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-3">
-        <div class="cell">
-          <div class="card">
-            <img src="assets/img/generic/rectangle-1.jpg">
-            <div class="card-section">
-            <h4>placeholder for food</h4>
+        <div id="recipePicContainer" class="small-6 medium-6 large-4">
+          <div>
+            <img id="recipePic" src="https://pixabay.com/get/g1d63da4133f1f24693ab7cdc714eda7c1d322d35ad341979b17f22b1e780aed70ba835b455730d7c37f21ccda0a96d7e8b8715242c191ffeebd2f9aa801c896a_1280.jpg" />
+            <div id="recipeBtnDiv" class="grid-x">
+              <button type="button" id="reRollBtn" class="success button">
+                Reroll
+              </button>
+              <button type="button" id="historyBtn" class="alert button">
+                History
+              </button>
             </div>
           </div>
         </div>
-        <div class="cell">
-          <div class="card">
-            <img src="assets/img/generic/rectangle-1.jpg">
-            <div class="card-section">
-              <h4>placeholder for food</h4>
-             
-            </div>
-          </div>
-        </div>
-        <div class="cell">
-          <div class="card">
-            <img src="assets/img/generic/rectangle-1.jpg">
-            <div class="card-section">
-              <h4>placeholder for food</h4>
-             
-            </div>
-          </div>
-        </div>
-      </div>
-    <div class="grid-x grid-margin-x small-up-2 medium-up-3">
-      <div class="cell">
-        <div class="card">
-          <img src="assets/img/generic/rectangle-1.jpg">
-          <div class="card-section">
-            <h4>placeholder for food</h4>
-            
-          </div>
-        </div>
-      </div>
-      <div class="cell">
-        <div class="card">
-          <img src="assets/img/generic/rectangle-1.jpg">
-          <div class="card-section">
-            <h4>placeholder for food</h4>
-           
-          </div>
-        </div>
-      </div>
-      <div class="cell">
-        <div class="card">
-          <img src="assets/img/generic/rectangle-1.jpg">
-          <div class="card-section">
-            <h4>placeholder for food</h4>
-           
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </main>
+    </section>
 
+    <section class="foodHistory hide">
+      <div class="callout primary">
+        <div class="row column text-center">
+          <h2>Recent</h2>
+          <div id="historyBtnDiv" class="cell small-2 text-center">
+            <button type="button" class="success button">Return To Menu</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+          <div class="cell">
+            <div class="card">
+              <img src="./assets/Images/background-img.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <img src="./assets/Images/background-img.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <img src="./assets/Images/background-img.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+          <div class="cell">
+            <div class="card">
+              <img src="./assets/Images/background-img.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <img src="./assets/Images/background-img.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <img src="./assets/Images/background-img.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
       integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
       crossorigin="anonymous"
     ></script>
-    <script src="assets/script.js"></script>
+    <script src="assets/pixabayAPI.js"></script>
   </body>
 </html>
