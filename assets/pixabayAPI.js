@@ -17,6 +17,7 @@ fetch(requestUrl)
     // }
   });
 
+// jquery function that we could possibly use instead
 //   var API_KEY = '21425895-73e3d9c4c296584d1ba63965b';
 // var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent('food chicken pasta');
 // $.getJSON(URL, function(data){
