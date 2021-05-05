@@ -83,7 +83,7 @@
         </div>
         <div id="recipePicContainer" class="small-6 medium-6 large-4">
           <div>
-            <img id="recipePic" src="https://pixabay.com/get/g1d63da4133f1f24693ab7cdc714eda7c1d322d35ad341979b17f22b1e780aed70ba835b455730d7c37f21ccda0a96d7e8b8715242c191ffeebd2f9aa801c896a_1280.jpg" />
+            <img id="recipePic" src="./assets/placeholder.png" />
             <div id="recipeBtnDiv" class="grid-x">
               <button type="button" id="reRollBtn" class="success button">
                 Reroll
@@ -97,39 +97,22 @@
       </main>
     </section>
 
-    <section class="foodHistory hide">
-      <div class="callout primary">
+    <section class="foodHistory">
+      <div id="recentHeader" class="callout primary">
         <div class="row column text-center">
           <h2>Recent</h2>
           <div id="historyBtnDiv" class="cell small-2 text-center">
-            <button type="button" class="success button">Return To Menu</button>
+            <button type="button" class="success button" id="returnBtn">
+              Return To Menu
+            </button>
           </div>
         </div>
       </div>
-    </main>
-  </section>
-  
-  <section class="foodHistory">
-   <div id="recentHeader" class="callout primary">
-    <div class="row column text-center">
-      <h2>Recent </h2>
-      <div id="historyBtnDiv" class="cell small-2 text-center">
-        <button type="button" class="success button" id="returnBtn">Return To Menu</button>
-      </div>
-    </div>
-    </div>
-    <div class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-3">
-        <div class="cell">
-          <div class="card">
-            <img src="assets/img/generic/rectangle-1.jpg">
-            <div class="card-section">
-            <h4>placeholder for food</h4>
-            </div>
-          </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x small-up-2 medium-up-3">
           <div class="cell">
             <div class="card">
-              <img src="./assets/Images/background-img.jpg" />
+              <img src="assets/img/generic/rectangle-1.jpg" />
               <div class="card-section">
                 <h4>placeholder for food</h4>
               </div>
@@ -137,7 +120,15 @@
           </div>
           <div class="cell">
             <div class="card">
-              <img src="./assets/Images/background-img.jpg" />
+              <img src="assets/img/generic/rectangle-1.jpg" />
+              <div class="card-section">
+                <h4>placeholder for food</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <img src="assets/img/generic/rectangle-1.jpg" />
               <div class="card-section">
                 <h4>placeholder for food</h4>
               </div>
@@ -147,7 +138,7 @@
         <div class="grid-x grid-margin-x small-up-2 medium-up-3">
           <div class="cell">
             <div class="card">
-              <img src="./assets/Images/background-img.jpg" />
+              <img src="assets/img/generic/rectangle-1.jpg" />
               <div class="card-section">
                 <h4>placeholder for food</h4>
               </div>
@@ -155,7 +146,7 @@
           </div>
           <div class="cell">
             <div class="card">
-              <img src="./assets/Images/background-img.jpg" />
+              <img src="assets/img/generic/rectangle-1.jpg" />
               <div class="card-section">
                 <h4>placeholder for food</h4>
               </div>
@@ -163,7 +154,7 @@
           </div>
           <div class="cell">
             <div class="card">
-              <img src="./assets/Images/background-img.jpg" />
+              <img src="assets/img/generic/rectangle-1.jpg" />
               <div class="card-section">
                 <h4>placeholder for food</h4>
               </div>
@@ -181,6 +172,11 @@
       integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
       crossorigin="anonymous"
     ></script>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/math.js"></script>
+    <script src="assets/fetch.js"></script>
+
     <script src="./assets/script.js"></script>
     <script src="assets/pixabayAPI.js"></script>
   </body>
