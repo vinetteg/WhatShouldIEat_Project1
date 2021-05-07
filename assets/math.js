@@ -6,46 +6,32 @@ var randomFood = [
     fish: ["Saltfish and Ackee", "Fish Pie", "Fish Fofos", "Escovitch Fish"],
   },
 ];
-var randomChickenNum = 0;
+
 function randomChickenOption() {
-  var randomChickenNum = Math.floor(Math.random() * 4);
+   window.randomChickenNum = Math.floor(Math.random() * 4);
   console.log(randomFood[0].chicken[randomChickenNum]);
 }
-var randomBeefNum = 0;
+
 function randomBeefOption() {
-  var randomBeefNum = Math.floor(Math.random() * 4);
+  window.randomBeefNum = Math.floor(Math.random() * 4);
   console.log(randomFood[0].beef[randomBeefNum]);
 }
-var randomVeggieNum = 0;
+
 function randomVeggieOption() {
-  var randomVeggieNum = Math.floor(Math.random() * 4);
+  window.randomVeggieNum = Math.floor(Math.random() * 4);
   console.log(randomFood[0].veggie[randomVeggieNum]);
 }
-var randomFishNum = 0;
+
 function randomFishOption() {
-  randomFishNum = Math.floor(Math.random() * 4);
+  window.randomFishNum = Math.floor(Math.random() * 4);
   console.log(randomFood[0].fish[randomFishNum]);
-  return randomFishNum;
 }
-console.log(randomFishNum)
 //lets add the large image url from pics api here
 var foodImage = [
   {
-    chicken: ["", "", "", ""],
-    beef: ["", "", "", ""],
-    veggie: ["", "", "", ""],
-    fish: ["", "", "", ""],
+    chicken: ["5037799", "5700078", "982895", "2523140"],
+    beef: ["632203", "5446080", "608973", "4985993"],
+    veggie: ["6156586","1804446","2755466","358648"],
+    fish: ["2834209","2552022","601250","5126484"]
   },
 ];
-function chickenImageFunc() {
-(foodImage[0].chicken[randomChickenNum]);
-}
-function beefImageFunc() {
-(foodImage[0].beef[randomBeefNum]);
-}
-function veggieImageFunc() {
-(foodImage[0].veggie[randomVeggieNum]);
-}
-function fishImageFunc() {
-(foodImage[0].fish[randomFishNum]);
-}

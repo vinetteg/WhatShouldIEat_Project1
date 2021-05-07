@@ -16,6 +16,9 @@ function beefRecipes(){
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
+
+beefBtn.addEventListener("click", randomBeefOption);
+beefBtn.addEventListener("click", beefImageFunc);
 beefBtn.addEventListener("click", beefRecipes);
 
 function chickenRecipes(){
@@ -23,6 +26,9 @@ function chickenRecipes(){
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
+
+chickenBtn.addEventListener("click", randomChickenOption);
+chickenBtn.addEventListener("click", chickenImageFunc);
 chickenBtn.addEventListener("click", chickenRecipes);
 
 function fishRecipes(){
@@ -30,6 +36,9 @@ function fishRecipes(){
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
+
+fishBtn.addEventListener("click", randomFishOption);
+fishBtn.addEventListener("click", fishImageFunc);
 fishBtn.addEventListener("click", fishRecipes);
 
 function veggieRecipes(){
@@ -37,6 +46,9 @@ function veggieRecipes(){
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
+
+veggiesBtn.addEventListener("click", randomVeggieOption);
+veggiesBtn.addEventListener("click", veggieImageFunc);
 veggiesBtn.addEventListener("click", veggieRecipes);
 
 function showHistory(){
