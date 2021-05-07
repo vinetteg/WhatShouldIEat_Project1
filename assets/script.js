@@ -28,7 +28,6 @@ function fishRecipes(){
     headerEl.style.display="none";
     landingContainer.style.display="none";
     recipeArea.style.display="block";
-    console.log(randomFishNum)
 }
 fishBtn.addEventListener("click", fishRecipes);
 
