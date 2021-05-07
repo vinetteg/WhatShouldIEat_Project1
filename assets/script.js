@@ -15,28 +15,32 @@ function beefRecipes(){
     recipeArea.style.display="block";
 }
 beefBtn.addEventListener("click", randomBeefOption);
+beefBtn.addEventListener("click", beefImageFunc);
 beefBtn.addEventListener("click", beefRecipes);
+
 function chickenRecipes(){
     headerEl.style.display="none";
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
 chickenBtn.addEventListener("click", randomChickenOption);
+chickenBtn.addEventListener("click", chickenImageFunc);
 chickenBtn.addEventListener("click", chickenRecipes);
 function fishRecipes(){
     headerEl.style.display="none";
     landingContainer.style.display="none";
     recipeArea.style.display="block";
-    console.log(randomFishNum)
 }
 fishBtn.addEventListener("click", randomFishOption);
+fishBtn.addEventListener("click", fishImageFunc);
 fishBtn.addEventListener("click", fishRecipes);
 function veggieRecipes(){
     headerEl.style.display="none";
     landingContainer.style.display="none";
     recipeArea.style.display="block";
 }
-veggieBtn.addEventListener("click", randomVeggieOption);
+veggiesBtn.addEventListener("click", randomVeggieOption);
+veggiesBtn.addEventListener("click", veggieImageFunc);
 veggiesBtn.addEventListener("click", veggieRecipes);
 function showHistory(){
     recipeArea.style.display="none";
