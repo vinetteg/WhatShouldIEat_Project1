@@ -9,6 +9,7 @@ var headerEl = document.querySelector(".header");
 var landingContainer = document.querySelector(".landingContainer");
 var recipeArea = document.querySelector(".recipeArea");
 var foodHistory = document.querySelector(".foodHistory");
+var homeBtn = document.querySelector("#homeBtn");
 
 function beefRecipes(){
     headerEl.style.display="none";
@@ -50,3 +51,11 @@ function returnHome(){
     landingContainer.style.display="block";
 }
 returnBtn.addEventListener("click", returnHome);
+
+function homeButton(){
+    recipeArea.style.display="none";
+    headerEl.style.display="block";
+    landingContainer.style.display="block";
+}
+
+homeBtn.addEventListener("click", homeButton);
