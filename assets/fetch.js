@@ -33,7 +33,7 @@ var recipeInstructions = document.getElementById("ingredients")
 
 // Veggie
 veggiesBtn.addEventListener("click", function() {
-  var apiMeal = "https://www.themealdb.com/api/json/v1/1/search.php?s="+randomFood[0].chicken[randomVeggieNum];
+  var apiMeal = "https://www.themealdb.com/api/json/v1/1/search.php?s="+randomFood[0].veggie[randomVeggieNum];
 
 var recipeHeader = document.getElementById("recipeHeader")
 var recipeInstructions = document.getElementById("ingredients")
