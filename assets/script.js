@@ -20,6 +20,7 @@ function beefRecipes(){
 beefBtn.addEventListener("click", randomBeefOption);
 beefBtn.addEventListener("click", beefImageFunc);
 beefBtn.addEventListener("click", beefRecipes);
+beefBtn.addEventListener("click", beef);
 
 function chickenRecipes(){
     headerEl.style.display="none";
@@ -30,6 +31,7 @@ function chickenRecipes(){
 chickenBtn.addEventListener("click", randomChickenOption);
 chickenBtn.addEventListener("click", chickenImageFunc);
 chickenBtn.addEventListener("click", chickenRecipes);
+chickenBtn.addEventListener("click", chicken);
 
 function fishRecipes(){
     headerEl.style.display="none";
@@ -40,6 +42,7 @@ function fishRecipes(){
 fishBtn.addEventListener("click", randomFishOption);
 fishBtn.addEventListener("click", fishImageFunc);
 fishBtn.addEventListener("click", fishRecipes);
+fishBtn.addEventListener("click", fish);
 
 function veggieRecipes(){
     headerEl.style.display="none";
@@ -50,6 +53,7 @@ function veggieRecipes(){
 veggiesBtn.addEventListener("click", randomVeggieOption);
 veggiesBtn.addEventListener("click", veggieImageFunc);
 veggiesBtn.addEventListener("click", veggieRecipes);
+veggiesBtn.addEventListener("click", veggie);
 
 function showHistory(){
     recipeArea.style.display="none";

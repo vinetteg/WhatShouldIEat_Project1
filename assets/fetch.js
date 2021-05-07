@@ -1,7 +1,8 @@
 
+
 //fetch to get recipe from mealDB
 // Chicken 
-chickenBtn.addEventListener("click", function() {
+function chicken() {
   var apiMeal = "https://www.themealdb.com/api/json/v1/1/search.php?s="+randomFood[0].chicken[randomChickenNum];
 
 var recipeHeader = document.getElementById("recipeHeader")
@@ -14,15 +15,13 @@ var recipeInstructions = document.getElementById("ingredients")
       recipeInstructions.innerHTML = data.meals[0].strInstructions
     });
   });
-})
+}
 
 // Beef
-beefBtn.addEventListener("click", function() {
+function beef() {
   var apiMeal = "https://www.themealdb.com/api/json/v1/1/search.php?s="+randomFood[0].beef[randomBeefNum];
 var recipeHeader = document.getElementById("recipeHeader");
 var recipeInstructions = document.getElementById("ingredients");
-
-
 
   fetch(apiMeal).then(function (response) {
     response.json().then(function (data) {
@@ -31,10 +30,10 @@ var recipeInstructions = document.getElementById("ingredients");
       recipeInstructions.innerHTML = data.meals[0].strInstructions
     });
   });
-})
+}
 
 // Veggie
-veggiesBtn.addEventListener("click", function() {
+function veggie() {
   var apiMeal = "https://www.themealdb.com/api/json/v1/1/search.php?s="+randomFood[0].veggie[randomVeggieNum];
 
 var recipeHeader = document.getElementById("recipeHeader")
@@ -47,10 +46,10 @@ var recipeInstructions = document.getElementById("ingredients")
       recipeInstructions.innerHTML = data.meals[0].strInstructions
     });
   });
-})
+}
 
 // Fish
-fishBtn.addEventListener("click", function() {
+function fish() {
   var apiMeal = "https://www.themealdb.com/api/json/v1/1/search.php?s="+randomFood[0].fish[randomFishNum];
 
 var recipeHeader = document.getElementById("recipeHeader")
@@ -63,4 +62,4 @@ var recipeInstructions = document.getElementById("ingredients")
       recipeInstructions.innerHTML = data.meals[0].strInstructions
     });
   });
-})
+}
