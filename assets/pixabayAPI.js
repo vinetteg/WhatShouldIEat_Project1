@@ -1,28 +1,66 @@
 var API_KEY = "21425895-73e3d9c4c296584d1ba63965b";
 
-var requestUrl = 
+// chickenImageFetch
+// document.getElementById("chicken").addEventListener("click", function(){
+var requestUrl =
   "https://pixabay.com/api/?key=" +
   API_KEY +
-  "&q=" +
-  encodeURIComponent("food+chicken+pasta");
+  "&id=" +
+  "randomImage[0].chicken[randomChickenNum]";
 fetch(requestUrl)
   .then(function (response) {
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
-    // for (var i = 0; i < data.length; i++) {
-    //   // var recipePic = document.getElementById("recipePic")
-    //   // recipePic.src = data.largeImageURL
-    // }
+    console.log(data.hits[0].largeImageURL);
+    var recipePic = document.getElementById("recipePic");
+    recipePic.setAttribute("src", data.hits[0].largeImageURL);
   });
 
-// jquery function that we could possibly use instead
-//   var API_KEY = '21425895-73e3d9c4c296584d1ba63965b';
-// var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent('food chicken pasta');
-// $.getJSON(URL, function(data){
-// if (parseInt(data.totalHits) > 0)
-//     $.each(data.hits, function(i, hit){ console.log(hit.pageURL); });
-// else
-//     console.log('No hits');
-// });
+// // beefImageFetch
+var requestUrl =
+  "https://pixabay.com/api/?key=" +
+  API_KEY +
+  "&id=" +
+  "randomImage[0].beef[randomBeefNum]";
+fetch(requestUrl)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data.hits[0].largeImageURL);
+    var recipePic = document.getElementById("recipePic");
+    recipePic.setAttribute("src", data.hits[0].largeImageURL);
+  });
+
+// // veggieImageFetch
+var requestUrl =
+  "https://pixabay.com/api/?key=" +
+  API_KEY +
+  "&id=" +
+  "foodImage[0].veggie[randomVeggieNum]";
+fetch(requestUrl)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data.hits[0].largeImageURL);
+    var recipePic = document.getElementById("recipePic");
+    recipePic.setAttribute("src", data.hits[0].largeImageURL);
+  });
+
+// // fishImageFetch
+var requestUrl =
+  "https://pixabay.com/api/?key=" +
+  API_KEY +
+  "&id=" +
+  "foodImage[0].fish[randomFishNum]";
+fetch(requestUrl)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data.hits[0].largeImageURL);
+    var recipePic = document.getElementById("recipePic");
+    recipePic.setAttribute("src", data.hits[0].largeImageURL);
+  });
