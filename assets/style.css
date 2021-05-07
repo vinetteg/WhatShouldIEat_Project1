@@ -1,14 +1,6 @@
 :root {
 }
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
 #recipeHeader {
   padding-bottom: 8%;
 }
