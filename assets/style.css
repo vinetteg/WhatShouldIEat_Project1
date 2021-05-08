@@ -1,0 +1,112 @@
+:root {
+}
+
+#recipeHeader {
+  padding-bottom: 8%;
+}
+
+#recipeContainer {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#ingredientsContainer {
+  padding: 10px;
+  height: 100vh;
+}
+
+#ingredients {
+  height: 100%;
+}
+
+#recipePicContainer {
+  padding: 10px;
+  height: 100vh;
+}
+
+#recipePic {
+  width: 100vw;
+}
+
+#recipeBtnDiv button {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    #recipeContainer {
+        flex-direction: column;
+    }
+
+    #recipePicContainer {
+        order: 1;
+        width: 100vw;
+    }
+
+    #ingredientsContainer {
+        order: 2;
+        width: 100vw;
+    }
+}
+
+.ingredient{
+    font-family: 'Montserrat', sans-serif;
+   color: black;
+   background-color: rgba(255,255,255,0);
+   border: 2px solid black;
+   width: 130px;
+   text-decoration: none;
+   padding: 10px;
+   margin: 15px; 
+   cursor: pointer;
+}
+
+.ingredientList{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 0px;
+}
+
+.mainIngredient{
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 75px;
+}
+
+.landingContainer{
+   background-image: url(./Images/background-img.jpg); 
+   background-size:cover;
+   position: relative;
+   min-height: 75vh;
+   background-repeat: no-repeat;
+   background-position: center center;
+   overflow: hidden;
+
+}
+
+.callout{
+    margin: 0;
+}
+
+.foodHistory{
+    display: none;
+}
+
+.recipeArea{
+    display:none;
+}
+
+#recentHeader{
+    background-color: #E0E2DB;
+    color:black;
+}
+
+#returnBtn{
+    background-color: #466431;
+    color: white;
+}
