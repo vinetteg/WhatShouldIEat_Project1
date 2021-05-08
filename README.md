@@ -24,6 +24,11 @@ Server-side APIs<br>
 
 ![Wireframe](assets/Images/wireframe.jpg)
 
+### Current Project -
+
+![Opening Page](assets/Images/mockup_open.png)
+![Recipe Page](assets/Images/mockup_recipe.png)
+
 ## Link To Application
 
 [Deployed Web Page](https://vinetteg.github.io/WhatShouldIEat_Project1/) <br>
